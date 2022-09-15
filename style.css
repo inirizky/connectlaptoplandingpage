@@ -43,7 +43,7 @@ nav{
 	letter-spacing: 1.12px;
 	color: rgb(77, 64, 84) ;
 	transition: all .38s ease;
-	padding: 8px 10px;
+	padding: 8px 5PX;
 	border-bottom: 2px solid transparent;
 }
 
@@ -140,6 +140,10 @@ nav{
 	filter: drop-shadow(0px 5px 3px black);
 	animation: drop 1.5s ease;
 }
+
+.image{
+  display: flex
+}
 .big-circle {
 	position: absolute;
 	top: 0;
@@ -199,5 +203,8 @@ nav{
 	.medium-circle,
 	.big-circle {
 		opacity: 0.2;
+	}
+	.small-circle{
+		display: none;
 	}
 }
